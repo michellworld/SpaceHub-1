@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+    	http://www.springframework.org/schema/beans/spring-beans.xsd
+    	http://www.springframework.org/schema/context
+    	http://www.springframework.org/schema/context/spring-context.xsd
+    	http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<!-- Step 3: Add support for component scanning -->
+	<context:component-scan base-package="com.project.spaceHub" />
+
+	<!--  Add support for conversion, formatting and validation support -->
+	<mvc:annotation-driven/>
+
+	<!--  Define Spring MVC view resolver -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/view/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+<!-- Step 1: Define Database DataSource/ connection pool-->
+
+<bean id="myDataSource" 
+class="com.mchange.v2.c3p0.ComboPooledDataSource"
+destroy-method="close">
+<property name="driverClass" value="com.mysql.jdbc.Driver" />
+<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spacehub amp?serverTimezone=UTC" />
+<property name="user" value="gbemiSpace" />
+<property name="password" value="@GoogleGbemi94" />
+<property name="basenames" value="resources/messages" />
+
+</bean>
+</beans>
+
+
+
+
+

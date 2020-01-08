@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spacehubWeb&apos; to &apos;spaceHub&apos;" description="Rename resource &apos;spacehubWeb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/spacehubWeb" name="spaceHub" stamp="1578301002080" updateReferences="true"/>
+</session>

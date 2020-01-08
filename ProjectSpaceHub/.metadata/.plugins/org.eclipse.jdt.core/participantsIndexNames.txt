@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2463090083.index
+/spaceHubWeb/src/main/java
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1802417055.index
+/spaceHubWeb/src/main/java
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2397702298.index
+/spaceHubWebApp/src/main/java
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2037961765.index
+/spacehubWeb/src/main/java
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3911100872.index
+/spacehubWeb/src/main/java
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3867958451.index
+/spaceHubWeb/src/main/java
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2300231859.index
+/spaceHubWeb/src/main/resources
+/home/gbemisola/ProjectSpaceHub/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2606225280.index
+/spaceHub/src/main/java

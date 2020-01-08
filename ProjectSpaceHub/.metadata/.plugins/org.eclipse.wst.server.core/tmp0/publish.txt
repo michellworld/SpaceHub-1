@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Jan 08 16:54:36 WAT 2020
+org.eclipse.jst.j2ee.server\:spacehubDataAccess=WEB-INF/lib/spacehubDataAccess-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.jee.server\:/binary\:/home/gbemisola/.m2/repository/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar=WEB-INF/lib/spring-web-5.2.2.RELEASE.jar
+org.eclipse.jst.j2ee.server\:spacehubServices=WEB-INF/lib/spacehubServices-0.0.1-SNAPSHOT.jar

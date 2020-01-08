@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.project.product.dao;
+
+import java.sql.Blob;
+import java.util.List;
+
+import com.project.product.entity.Product;
+
+
+
+/**
+ * @author gbemisola
+ *
+ */
+public interface ProductDAO {
+	
+	public List <Product> getProducts();
+	public Blob getPhotoById(int id);
+
+	public void saveProduct(Product theProduct);
+
+	public Product getProduct(int theId);
+
+	public void deleteProduct(int theId);
+
+
+}

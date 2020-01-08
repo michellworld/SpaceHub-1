@@ -1,0 +1,49 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="C" %>
+<html>
+
+<head>
+<title>List Of Product</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<h2>SpaceHub Product Table</h2>
+	
+		</div>
+	
+		</div>
+		<div id="container">
+	
+	
+			<div id="content">
+	<!--  add our html table here -->
+	
+	<table>
+		<tr>
+			<th> Product Name</th>
+			<th> Product Plan</th>
+			<th> Product Prize</th>
+		</tr>
+	
+		<!--  loop over and print our products -->
+	
+			<c:forEach var="tempProduct" items="${products}">
+				<tr>
+					<td> ${tempProduct.productName} </td>
+					<td> ${tempProduct.productPlan} </td>
+					<td> ${tempProduct.productPrize} </td>
+				
+				</tr>
+			
+			
+			
+			</c:forEach>
+	</table>
+	
+	</div>
+	
+	</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package com.project.spaceHub.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.project.spaceHub.service.ProductDAO;
+
+/**
+ * @author gbemisola
+ *
+ */
+@Controller
+@RequestMapping("/product")
+public class ProductController {
+	
+	//inject the customer dao service
+	@Autowired
+	private ProductDAO productDAO;
+	
+	
+	@RequestMapping("/list")
+	public String listProducts(Model theModel) {
+		
+		return "list-products";
+	}
+
+}

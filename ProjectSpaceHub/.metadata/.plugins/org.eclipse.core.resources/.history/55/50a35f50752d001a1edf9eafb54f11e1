@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.project.spaceHub.service;
+
+import java.util.List;
+
+/**
+ * @author gbemisola
+ *
+ */
+public interface ProductDAO {
+	
+	public List<Product> getProducts();
+
+}

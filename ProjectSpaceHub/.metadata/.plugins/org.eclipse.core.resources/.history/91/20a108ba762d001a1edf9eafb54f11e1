@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.project.spaceHub.impl;
+
+import java.util.List;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.project.spaceHub.entity.Product;
+import com.project.spaceHub.service.ProductDAO;
+
+/**
+ * @author gbemisola
+ *
+ */
+public class ProductDAOImpl implements ProductDAO {
+
+	// need to inject the session factory
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	public List<Product> getProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
